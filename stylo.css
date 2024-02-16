@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+background-color: black;
+display: flex;
+height: 15vh;
+align-items: center;
+}
+
+header #titulo{
+color: white;
+font-size: 60px;
+margin-left: 20%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header .loja {
+    color: fuchsia;
+    margin-left: 30%;
+    
+}
+
+
+header  #acessoMenu {
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.menu{
+    position: relative;
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    width: 35vh;
+    margin-left: -100%;
+    transition:600ms ;
+} 
+
+ .abrir{
+    margin-left: 0%;
+    transition: 800ms;
+
+}
+
+.menu #listaMenu {
+    color: white;
+margin-left: 30px ;
+position: absolute;
+
+    
+}
+
+.menu #listaMenu li a{
+    display: inline-block;
+ margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-size: 25px;
+    font-family: cursive;
+
+    
+}
